@@ -8,6 +8,8 @@
 
 #include "Base.h"
 #include "2026_02_21/Greeting.h"
+#include "2026_02_21/IntroC.h"
+#include "2026_02_21/Loops.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -19,6 +21,10 @@ public:
         switch (theme) {
             case TaskTheme::GreetingTask:
                 return std::make_unique<Greeting>();
+            case TaskTheme::IntroCTask:
+                return std::make_unique<IntroC>();
+            case TaskTheme::LoopsTask:
+                return std::make_unique<Loops>();
             default: nullptr;
         }
     }
