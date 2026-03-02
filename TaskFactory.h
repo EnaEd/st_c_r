@@ -10,6 +10,8 @@
 #include "2026_02_21/Greeting.h"
 #include "2026_02_21/IntroC.h"
 #include "2026_02_21/Loops.h"
+#include "2026_02_28/Arrays.h"
+#include "2026_02_28/Func.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -25,6 +27,10 @@ public:
                 return std::make_unique<IntroC>();
             case TaskTheme::LoopsTask:
                 return std::make_unique<Loops>();
+            case TaskTheme::ArraysTask:
+                return std::make_unique<Arrays>();
+            case TaskTheme::FuncTask:
+                return std::make_unique<Func>();
             default: nullptr;
         }
     }

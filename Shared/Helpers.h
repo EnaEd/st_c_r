@@ -11,14 +11,21 @@ class Helpers {
     public:
     Helpers() {}
     template<typename T>
-    T GetDataFromUser(std::string message) const {
+    T GetDataFromUser(string message) const {
         T data;
-        do {
+        while (true) {
             cout << message;
             cin >> data;
-        } while (cin.fail());
 
-        return data;
+            if (!cin.fail()) {
+                return data;
+            }
+
+            cout << "Invalid input. Try again.\n";
+
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
     }
 };
 #endif //ST_C_R_HELPERS_H
