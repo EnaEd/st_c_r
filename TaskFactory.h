@@ -12,6 +12,7 @@
 #include "2026_02_21/Loops.h"
 #include "2026_02_28/Arrays.h"
 #include "2026_02_28/Func.h"
+#include "2026_04_04/Homework.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -31,6 +32,8 @@ public:
                 return std::make_unique<Arrays>();
             case TaskTheme::FuncTask:
                 return std::make_unique<Func>();
+            case TaskTheme::HomeworkTask:
+                return std::make_unique<Homework>();
             default: nullptr;
         }
     }
