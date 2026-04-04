@@ -14,6 +14,7 @@
 #include "2026_02_28/Func.h"
 #include "2026_04_04/Homework.h"
 #include "2026_04_04/RecursionAndGames.h"
+#include "2026_04_04/PointersTask.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -37,6 +38,8 @@ public:
                 return std::make_unique<Homework>();
             case TaskTheme::RecursionAndGamesTask:
                 return std::make_unique<RecursionAndGames>();
+            case TaskTheme::PointersTask:
+                return std::make_unique<PointersTask>();
             default: nullptr;
         }
     }
