@@ -18,6 +18,7 @@
 #include "2026_04_04/DynamicArraysTask.h"
 #include "2026_04_04/StringsTask.h"
 #include "2026_04_04/Dynamic2DArraysTask.h"
+#include "2026_04_04/StructuresTask.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -49,6 +50,8 @@ public:
                 return std::make_unique<class StringsTask>();
             case Dynamic2DArraysTask:
                 return std::make_unique<class Dynamic2DArraysTask>();
+            case StructuresTask:
+                return std::make_unique<class StructuresTask>();
             default: nullptr;
         }
     }
