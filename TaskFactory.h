@@ -16,6 +16,7 @@
 #include "2026_04_04/RecursionAndGames.h"
 #include "2026_04_04/PointersTask.h"
 #include "2026_04_04/DynamicArraysTask.h"
+#include "2026_04_04/StringsTask.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -25,24 +26,26 @@ public:
 
     std::unique_ptr<Base> GetTask(TaskTheme theme) {
         switch (theme) {
-            case TaskTheme::GreetingTask:
+            case GreetingTask:
                 return std::make_unique<Greeting>();
-            case TaskTheme::IntroCTask:
+            case IntroCTask:
                 return std::make_unique<IntroC>();
-            case TaskTheme::LoopsTask:
+            case LoopsTask:
                 return std::make_unique<Loops>();
-            case TaskTheme::ArraysTask:
+            case ArraysTask:
                 return std::make_unique<Arrays>();
-            case TaskTheme::FuncTask:
+            case FuncTask:
                 return std::make_unique<Func>();
-            case TaskTheme::HomeworkTask:
+            case HomeworkTask:
                 return std::make_unique<Homework>();
-            case TaskTheme::RecursionAndGamesTask:
+            case RecursionAndGamesTask:
                 return std::make_unique<RecursionAndGames>();
-            case TaskTheme::PointersTask:
-                return std::make_unique<PointersTask>();
-            case TaskTheme::DynamicArraysTask:
-                return std::make_unique<DynamicArraysTask>();
+            case PointersTask:
+                return std::make_unique<class PointersTask>();
+            case DynamicArraysTask:
+                return std::make_unique<class DynamicArraysTask>();
+            case StringsTask:
+                return std::make_unique<class StringsTask>();
             default: nullptr;
         }
     }
