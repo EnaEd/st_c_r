@@ -20,6 +20,11 @@
 #include "2026_04_04/Dynamic2DArraysTask.h"
 #include "2026_04_04/StructuresTask.h"
 #include "2026_04_04/FilesTask.h"
+#include "2026_04_25/StringClassTask.h"
+#include "2026_04_25/HouseSimulationTask.h"
+#include "2026_04_25/ReservoirTask.h"
+#include "2026_04_25/FractionTask.h"
+#include "2026_04_25/Homework.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -55,6 +60,16 @@ public:
                 return std::make_unique<class StructuresTask>();
             case FilesTask:
                 return std::make_unique<class FilesTask>();
+            case StringClassTask:
+                return std::make_unique<class StringClassTask>();
+            case HouseSimulationTask:
+                return std::make_unique<class HouseSimulationTask>();
+            case ReservoirTask:
+                return std::make_unique<class ReservoirTask>();
+            case FractionTask:
+                return std::make_unique<class FractionTask>();
+            case Homework_04_25:
+                return std::make_unique<class Homework_04_25>();
             default: nullptr;
         }
     }

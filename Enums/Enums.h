@@ -5,5 +5,5 @@
 #ifndef ST_C_R_ENUMS_H
 #define ST_C_R_ENUMS_H
 #pragma once
-enum TaskTheme { None, GreetingTask, IntroCTask, LoopsTask, ArraysTask, FuncTask, HomeworkTask, RecursionAndGamesTask, PointersTask, DynamicArraysTask, StringsTask, Dynamic2DArraysTask, StructuresTask, FilesTask, LastOneMark };
+enum TaskTheme { None, GreetingTask, IntroCTask, LoopsTask, ArraysTask, FuncTask, HomeworkTask, RecursionAndGamesTask, PointersTask, DynamicArraysTask, StringsTask, Dynamic2DArraysTask, StructuresTask, FilesTask, StringClassTask, HouseSimulationTask, ReservoirTask, FractionTask, Homework_04_25, LastOneMark };
 #endif //ST_C_R_ENUMS_H
