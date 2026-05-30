@@ -25,6 +25,9 @@
 #include "2026_04_25/ReservoirTask.h"
 #include "2026_04_25/FractionTask.h"
 #include "2026_04_25/Homework.h"
+#include "2026_05_30/Homework.h"
+#include "2026_06_06/Homework.h"
+#include "2026_06_13/Homework.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -70,6 +73,12 @@ public:
                 return std::make_unique<class FractionTask>();
             case Homework_04_25:
                 return std::make_unique<class Homework_04_25>();
+            case InheritanceAndExceptionsTask:
+                return std::make_unique<class InheritanceAndExceptionsTask>();
+            case InheritanceAndTemplatesTask:
+                return std::make_unique<class InheritanceAndTemplatesTask>();
+            case DataStructuresTask:
+                return std::make_unique<class DataStructuresTask>();
             default: nullptr;
         }
     }
