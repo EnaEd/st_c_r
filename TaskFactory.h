@@ -28,6 +28,7 @@
 #include "2026_05_30/Homework.h"
 #include "2026_06_06/Homework.h"
 #include "2026_06_13/Homework.h"
+#include "2026_06_10/StringChecker.h"
 #include "Enums/Enums.h"
 
 class TaskFactory {
@@ -63,20 +64,16 @@ public:
                 return std::make_unique<class StructuresTask>();
             case FilesTask:
                 return std::make_unique<class FilesTask>();
-            case StringClassTask:
-                return std::make_unique<class StringClassTask>();
             case HouseSimulationTask:
                 return std::make_unique<class HouseSimulationTask>();
             case ReservoirTask:
                 return std::make_unique<class ReservoirTask>();
             case FractionTask:
                 return std::make_unique<class FractionTask>();
-            case Homework_04_25:
-                return std::make_unique<class Homework_04_25>();
             case InheritanceAndExceptionsTask:
                 return std::make_unique<class InheritanceAndExceptionsTask>();
-            case InheritanceAndTemplatesTask:
-                return std::make_unique<class InheritanceAndTemplatesTask>();
+            case StringChecker:
+                return std::make_unique<class StringChecker>();
             case DataStructuresTask:
                 return std::make_unique<class DataStructuresTask>();
             default: nullptr;
