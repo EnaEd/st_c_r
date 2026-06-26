@@ -1,22 +1,35 @@
-#include "TaskFactory.h"
-#include "2026_02_21/Greeting.h"
-#include "Enums/Enums.h"
-using namespace std;
+#include <iostream>
+
+#include "Services/CarDatabase.h"
+void Print(const std::optional<VehicleRecord> &record) {
+    std::cout << "Print: ";
+    if(record) {
+        std::cout << record->ToString() << std::endl;
+    }
+    else {
+        std::cout << "Not found" << std::endl;
+    }
+}
 
 int main() {
-    /// Choose task theme to test program behavior
-    /// naming rule: ThemeTask has the same Name as target class with postfix Task
-    /// <sample> auto task = TaskTheme::GreetingTask; </sample>
-    /// by defaulttask has pointer to lastest work
-    auto taskTheme = static_cast<TaskTheme>(static_cast<int>(TaskTheme::LastOneMark) - 1);
 
-    TaskFactory factory;
-    auto task = factory.GetTask(taskTheme);
-    if (task == nullptr) {
-        cout << "Task theme not found\n";
-        return 0;
-    }
-    task->Run();
+    CarDatabase carDatabase;
+    carDatabase.Add(VehicleRecord("AA112233EB", Owner("John")));
+    carDatabase.Add(VehicleRecord("BB112233EB", Owner("John")));
+    carDatabase.Add(VehicleRecord("CC112233EB", Owner("John")));
+    carDatabase.Add(VehicleRecord("DD112233EB", Owner("John")));
+    carDatabase.Add(VehicleRecord("EE112233EB", Owner("John")));
+    carDatabase.Add(VehicleRecord("FF112233EB", Owner("John")));
+    carDatabase.Add(VehicleRecord("GG112233EB", Owner("John")));
+
+    auto res=carDatabase.Find("AA112233EB");
+    Print(res);
+    res=carDatabase.Find("ZZ112233EB");
+    Print(res);
+    carDatabase.Remove(VehicleRecord("AA112233EB", Owner("John")));
+    res = carDatabase.Find("AA112233EB");
+    Print(res);
+    carDatabase.List();
 }
 
 

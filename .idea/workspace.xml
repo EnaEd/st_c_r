@@ -9,8 +9,19 @@
     <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="c_plus_plus" targetName="c_plus_plus" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -19,18 +30,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef05fecb-dca4-415e-a6e3-bfe7afd820d5" name="Changes" comment="hw">
-      <change afterPath="$PROJECT_DIR$/2026_06_10/CustomString.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2026_06_10/StringChecker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2026_04_25/Homework.h" beforeDir="false" afterPath="$PROJECT_DIR$/2026_04_25/Homework.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2026_04_25/StringClassTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/2026_04_25/StringClassTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2026_05_30/Homework.h" beforeDir="false" afterPath="$PROJECT_DIR$/2026_05_30/Homework.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2026_06_06/Homework.h" beforeDir="false" afterPath="$PROJECT_DIR$/2026_06_06/Homework.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2026_06_06/StringHierarchyTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/2026_06_06/StringHierarchyTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enums/Enums.h" beforeDir="false" afterPath="$PROJECT_DIR$/Enums/Enums.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/TaskFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/st_c_r.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/st_c_r.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/vc140.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entities/Owner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entities/VehicleRecord.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/CarDatabase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_02_21/Greeting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_02_21/IntroC.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_02_21/Loops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_02_28/Arrays.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_02_28/Func.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/Dynamic2DArraysTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/DynamicArraysTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/FilesTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/Homework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/PointersTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/RecursionAndGames.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/StringsTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_04/StructuresTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_25/FractionTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_25/Homework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_25/HouseSimulationTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_25/ReservoirTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_04_25/StringClassTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_05_30/AbstractClassesTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_05_30/CustomExceptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_05_30/ExceptionsTasks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_05_30/Homework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_05_30/TemplateInheritanceTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_05_30/VirtualFunctionsTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_06/ArrayContainerTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_06/Homework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_06/PetsTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_06/StringHierarchyTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_06/TrafficPoliceTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_10/CustomString.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_10/StringChecker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_13/Homework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_13/MatrixTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_13/QueueTasks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2026_06_13/StackTasks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enums/Enums.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/st_c_r.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/st_c_r.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +84,21 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/Projects/step_projects/c_plus_plus/.idea" value="39yMr2JFJxvdAMEUtmyObxbuscM" />
+    </persistenceIdMap>
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="76" />
+    <option name="cachedIndexableFilesCount" value="74" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -68,62 +122,68 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000027" />
-      <entry key="MS500" value="1.0012074445538157" />
-      <entry key="S2" value="1.2144356810654633" />
-      <entry key="S5" value="1.9934299298985274" />
-      <entry key="S10" value="3.0724925528840603" />
-      <entry key="S30" value="4.670369733558738" />
-      <entry key="S60" value="5.275978818684548" />
-      <entry key="M2" value="5.629013265278647" />
-      <entry key="M5" value="6.334678220053981" />
-      <entry key="M10" value="10.458127924478422" />
-      <entry key="M15" value="17.204580725070798" />
-      <entry key="M30" value="36.94110294595544" />
-      <entry key="H1" value="59.49443759375225" />
-      <entry key="H2" value="77.05199776266589" />
-      <entry key="H4" value="88.09058678680606" />
-      <entry key="D1" value="98.70490662856889" />
-      <entry key="W1" value="100.66842170912119" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000002134723653" />
+      <entry key="S5" value="1.002214739557647" />
+      <entry key="S10" value="1.069217140426967" />
+      <entry key="S30" value="2.8449884134451393" />
+      <entry key="S60" value="6.335416235102439" />
+      <entry key="M2" value="11.251372298713925" />
+      <entry key="M5" value="21.312243260928884" />
+      <entry key="M10" value="37.84266317833462" />
+      <entry key="M15" value="53.886300448885805" />
+      <entry key="M30" value="93.85878458321358" />
+      <entry key="H1" value="144.99015239572887" />
+      <entry key="H2" value="193.24010054129224" />
+      <entry key="H4" value="228.17965251037853" />
+      <entry key="D1" value="265.44747565603365" />
+      <entry key="W1" value="272.7533112481341" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.039330686947899E-132" />
-      <entry key="S5" value="5.973058823543684E-53" />
-      <entry key="S10" value="1.3243156172498664E-26" />
-      <entry key="S30" value="4.941195158326504E-9" />
-      <entry key="S60" value="1.3118868841476347E-4" />
-      <entry key="M2" value="0.02615025798762302" />
-      <entry key="M5" value="0.8474713807123452" />
-      <entry key="M10" value="3.2640177997946767" />
-      <entry key="M15" value="5.557466868732088" />
-      <entry key="M30" value="10.344768186231654" />
-      <entry key="H1" value="14.797267203429925" />
-      <entry key="H2" value="17.950931470972737" />
-      <entry key="H4" value="19.846744032091994" />
-      <entry key="D1" value="21.621594725336767" />
-      <entry key="W1" value="21.94544058018946" />
+      <entry key="MS100" value="1.9802980302475638E-143" />
+      <entry key="MS500" value="2.879692472138391E-29" />
+      <entry key="S2" value="7.325487485287411E-8" />
+      <entry key="S5" value="0.0014003182110805589" />
+      <entry key="S10" value="0.03885309523724201" />
+      <entry key="S30" value="0.5614184762010255" />
+      <entry key="S60" value="1.46261773033704" />
+      <entry key="M2" value="2.90112033684446" />
+      <entry key="M5" value="5.941559734303963" />
+      <entry key="M10" value="9.924806576437131" />
+      <entry key="M15" value="13.53744408815286" />
+      <entry key="M30" value="22.431153415742113" />
+      <entry key="H1" value="33.55852696234264" />
+      <entry key="H2" value="43.69613859448674" />
+      <entry key="H4" value="50.83999757410443" />
+      <entry key="D1" value="58.30638919577632" />
+      <entry key="W1" value="59.753557082675606" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.802629439002326E-14" />
-      <entry key="MS500" value="0.0022306358627458673" />
-      <entry key="S2" value="0.3428340466174324" />
-      <entry key="S5" value="1.3572734123281587" />
-      <entry key="S10" value="2.6172714856401114" />
-      <entry key="S30" value="4.456908218735247" />
-      <entry key="S60" value="5.157901737192875" />
-      <entry key="M2" value="5.592321568065529" />
-      <entry key="M5" value="7.150075984274798" />
-      <entry key="M10" value="13.694840476563217" />
-      <entry key="M15" value="22.735573620986788" />
-      <entry key="M30" value="47.26321788657165" />
-      <entry key="H1" value="74.27578819941574" />
-      <entry key="H2" value="94.99331481410873" />
-      <entry key="H4" value="107.9320217632484" />
-      <entry key="D1" value="120.32553784414115" />
-      <entry key="W1" value="122.61372258972824" />
+      <entry key="MS100" value="5.291318026404384E-33" />
+      <entry key="MS500" value="3.5051997575498583E-7" />
+      <entry key="S2" value="0.024332199212530256" />
+      <entry key="S5" value="0.22921701545238662" />
+      <entry key="S10" value="0.5759127740851251" />
+      <entry key="S30" value="3.140898240399533" />
+      <entry key="S60" value="7.60702126989089" />
+      <entry key="M2" value="13.995558214796047" />
+      <entry key="M5" value="27.12071865541846" />
+      <entry key="M10" value="47.653728434224256" />
+      <entry key="M15" value="67.32282644853541" />
+      <entry key="M30" value="116.21228568020005" />
+      <entry key="H1" value="178.49459469212184" />
+      <entry key="H2" value="236.90264105469151" />
+      <entry key="H4" value="279.00060543550995" />
+      <entry key="D1" value="323.7503059996489" />
+      <entry key="W1" value="332.50634935726123" />
     </decayedShown>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="1.3" />
+    <option name="productBranch" value="Classic" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -138,6 +198,7 @@
   "keyToString": {
     "C/C++ File.st_c_r.cpp - MinGW.executor": "Run",
     "C/C++ File.st_c_r.cpp - Visual Studio.executor": "Debug",
+    "C/C++ File.st_c_r.cpp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -146,11 +207,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "set",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "D:/Step_edu/st_c_r",
@@ -169,7 +232,29 @@
   <component name="RecapUselessUpdatesCounter">
     <option name="suspendCountdown" value="6" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C/C++ File.st_c_r.cpp">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="c_plus_plus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_plus_plus" TARGET_NAME="c_plus_plus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_plus_plus" RUN_TARGET_NAME="c_plus_plus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="st_c_r.cpp - Visual Studio" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="st_c_r" TARGET_NAME="st_c_r.cpp - Visual Studio" CONFIG_NAME="st_c_r.cpp - Visual Studio">
       <option name="sourceFile" value="D:\Step_edu\st_c_r\st_c_r.cpp" />
       <option name="toolchainName" value="Visual Studio" />
@@ -177,6 +262,17 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="st_c_r.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_plus_plus" TARGET_NAME="st_c_r.cpp" CONFIG_NAME="st_c_r.cpp">
+      <option name="sourceFile" value="st_c_r.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.st_c_r.cpp" />
+      <item itemvalue="C/C++ File.st_c_r.cpp - Visual Studio" />
+      <item itemvalue="CMake Application.c_plus_plus" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -195,6 +291,7 @@
       <workItem from="1780117598114" duration="1502000" />
       <workItem from="1780128249457" duration="1363000" />
       <workItem from="1781106203688" duration="4234000" />
+      <workItem from="1782497290813" duration="4424000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <option name="closed" value="true" />
