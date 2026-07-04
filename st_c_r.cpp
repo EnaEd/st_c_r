@@ -1,22 +1,19 @@
-#include "TaskFactory.h"
-#include "2026_02_21/Greeting.h"
-#include "Enums/Enums.h"
+#include <iostream>
+#include <ostream>
+
+#include "app/Entities/Aspirant/Aspirant.h"
+//TODO EE: Question Как правильно подключать файлі чтобі не біло циркулярніх зависимостей как в єтом случае.
+// получаю ошибку 'ambiguous symbol Student' если раскоментировать подключение файла студента
+//#include "app/Entities/Aspirant/Student.h"
+
 using namespace std;
 
 int main() {
-    /// Choose task theme to test program behavior
-    /// naming rule: ThemeTask has the same Name as target class with postfix Task
-    /// <sample> auto task = TaskTheme::GreetingTask; </sample>
-    /// by defaulttask has pointer to lastest work
-    auto taskTheme = static_cast<TaskTheme>(static_cast<int>(TaskTheme::LastOneMark) - 1);
-
-    TaskFactory factory;
-    auto task = factory.GetTask(taskTheme);
-    if (task == nullptr) {
-        cout << "Task theme not found\n";
-        return 0;
-    }
-    task->Run();
+    cout<<"Hello World!"<<endl;
+    const Student student("John", "Doe", "CS-1", 1);
+    student.toString();
+    const Aspirant aspirant("Jane", "Doe", "CS-2", "Degree Project", 2);
+    aspirant.toString();
 }
 
 
